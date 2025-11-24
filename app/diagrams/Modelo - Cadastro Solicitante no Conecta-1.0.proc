@@ -223,6 +223,16 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_9tOlZ8lpEfCVDvYuaghd_g" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_9tOlZslpEfCVDvYuaghd_g" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:Activity" xmi:id="_ZADA4MlrEfCG0KjnojVP_A" name="OI FEIA">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_ZAg68MlrEfCG0KjnojVP_A" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_ZAfs0MlrEfCG0KjnojVP_A" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_ZAg68clrEfCG0KjnojVP_A" name="" content="" returnTypeFixed="true"/>
+          <loopCondition xmi:type="expression:Expression" xmi:id="_ZAhiAMlrEfCG0KjnojVP_A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+          <loopMaximum xmi:type="expression:Expression" xmi:id="_ZAhiAclrEfCG0KjnojVP_A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_ZAhiAslrEfCG0KjnojVP_A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <iteratorExpression xmi:type="expression:Expression" xmi:id="_ZAhiBMlrEfCG0KjnojVP_A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+          <completionCondition xmi:type="expression:Expression" xmi:id="_ZAhiA8lrEfCG0KjnojVP_A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <data xmi:type="process:BusinessObjectData" xmi:id="_RDZRQMiYEfCoxKq7A_LFAQ" name="solicitante" dataType="_sTDRk7muEfCPrIJiPHqF8A" className="com.company.model.Solicitante">
         <defaultValue xmi:type="expression:Expression" xmi:id="_RDZ4UMiYEfCoxKq7A_LFAQ" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
@@ -424,6 +434,10 @@
             <children xmi:type="notation:Shape" xmi:id="_9tOlaMlpEfCVDvYuaghd_g" type="3027" element="_9tNXQMlpEfCVDvYuaghd_g" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_9tOlaslpEfCVDvYuaghd_g" type="5017"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9tOlaclpEfCVDvYuaghd_g" x="301" y="10"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_ZBOFkMlrEfCG0KjnojVP_A" type="3006" element="_ZADA4MlrEfCG0KjnojVP_A" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZBVaUMlrEfCG0KjnojVP_A" type="5006"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZBP6wMlrEfCG0KjnojVP_A" x="254" y="280"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_WkGxUbmxEfCPrIJiPHqF8A"/>
